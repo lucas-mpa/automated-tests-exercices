@@ -1,24 +1,18 @@
+
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Ex01 from './modules/Ex01';
+import Ex02 from './modules/Ex02';
+import Ex03 from './modules/Ex03';
+import Ex04 from './modules/Ex04';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ex01 />
+      <Ex02 />
+      <Ex03 />
+      <Ex04 />
     </div>
   );
 }
